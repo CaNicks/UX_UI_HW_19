@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@100&display=swap" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" type="text/css">
+
+    <title>CNDezign</title>
+</head>
+
+<body>
+    <header class="navigation">
+        <div class="logo">
+            <img src="Images/Nick Caltrider - Smaller Version.png" style="width: 15em; height:15em;" ;">
+        </div>
+        <nav class="inline-block">
+            <a style="font-size: 25px;">Resume</a> |
+            <a style="font-size: 25px;">Linkedin</a> |
+            <a style="font-size: 25px;"> About Me </a>|
+            <a style="font-size: 25px;"> My Work</a>
+        </nav>
+    </header>
+
+    <section class="heroImg">
+        <div class="content">
+            <img src="Images/Yea.PNG">
+            <p style="color: black;">Im a UX/Product designer, with a background in game design </p>
+            <button class="resume" type="button" onclick="alert('Resume')">Download Resume</button>
+        </div>
+    </section>
+    <!-- My Work Section Constructed using CSS Grid -->
+
+    <section class="myWork" id="workLayout">
+        <h1 class = "h1" style="font-size: 25px;">My Work</h1>
+        <div class="grid-container">
+            <div class="workGrid">
+                <div id="Picture1">
+                    <img src="Images/Homeland Security.jpg">
+                </div>
+                <div id="Description" class="item2">
+                    <h4>Homeland Security</h4>
+                    <p>A redesign of a government site focused on creating a pathway through the maze of endless
+                        information, while giving more useful and detailed information for the user</p>
+                    <button>Read More</button>
+
+                </div>
+
+
+            </div>
+        </div>
+         <!--  Changed/Combined myUXSkills section name to make it easier to find and undertand -->
+        <div class="grid-container2">
+            <div class="workGrid2"> 
+            <div id="Picture2" class="item">
+                <img src="Images/A Little Help.png" style="width: 30em;">
+            </div>
+            <div id="Description2" class="item3">
+                <h4> A Little Help</h4>
+                <p> Helping a non-profit get a new chance on life through their site. By reworking the site it
+                    allows them to offer more services to those who need it, in the most streamlined way
+                    possible</p>
+                <button>Read More</button>
+            </div>
+            </div>
+        </div>
+
+        <div class="projectbutton">
+            <button type="button" onclick="alert('View All Projects')"> View All Projects </button>
+        </div>
+
+        </div>
+    </section>
+
+    <!--  My UX Skills section coded using CSS flex -->
+    <h1 style="font-size: 25px;">My UX Skills</h1>
+    <div class="flexContainer">
+        <div>
+            <img>
+            <h3>Prototyping</h3>
+            <p>Finding the balance between functionality and aesthetic is one of the most satisfying parts of UX/UI.
+                When you can find that balance it is the most satisfying feeling in the world. But, is also one of the
+                most frustrating when something you worked on doesn’t turn out the way you want.</p>
+        </div>
+        <div>
+            <img>
+            <h3>User Testing</h3>
+            <p>No matter how well you think something is working having someone who has never touched this product can
+                really tell what is going right and what is going wrong. While also finding underlying problems that
+                werent even considered in initial testing </p>
+        </div>
+        <div>
+            <img>
+            <h3>Heuristics</h3>
+            <p>Creating a happy path is the ultimate goal for a designer. It is what makes or breaks a site. This is
+                what makes websites truly stand out. They look nothing alike but when you take a closer look you find,
+                identical layouts that allow for every type of user to use. This creates a challenge for a designer and
+                is something I really enjoy solving </p>
+        </div>
+    </div>
+    </section>
+
+
+    <section>
+        <footer class="footer">
+            <p class="p">Nick Caltrider</p>
+            <a href="caltriderni@gmail.com" class="a">caltriderni@gmail.com</a></p>
+            <ul class="ul">
+                <li>Resume </li>
+                <li>Linkedin</li>
+                <li>AboutMe</li>
+            </ul>
+        </footer>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+body {
+    font-family: 'Sofia Sans', sans-serif;
+    
+  }
+  
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+  width: 130%;
+  text-align: right;
+  
+}
+
+.logo {
+  width: 25%;
+  padding: 1%;
+  text-align: center;
+  
+}
+
+.navigation {
+  width: 73%;
+  padding: 1%;
+}
+
+.heroImg {
+  height: 600px;
+  padding: 60px;
+  align-content: center;
+}
+
+.resume {
+    align-content: center;
+}
+
+.content {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.ul {
+  display: inline-block;
+  vertical-align: right;
+  padding: 25px;
+  color: white;
+}
+
+.p {
+  color: white;
+}
+
+.a {
+  color: white;
+}
+
+.projectbutton {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#workLayout {
+  margin: 0px 5%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "grid-container"
+  "grid-container2"
+  "projectbutton";
+}
+
+.footer {
+   background-color: #373738;
+   width:100%; 
+   height:200px; 
+   display: grid;
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-areas:  
+   "ul"
+   "p"
+   "a";
+   
+  }
+
+.workGrid {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:  
+  "Picture1"
+  "Description";
+}
+
+.Picture1 {
+  grid-area:Picture1;
+}
+
+.Decription {
+  grid-area:Description;
+}
+
+.workGrid2 {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:  
+  "Picture2"
+  "Description2";
+}
+
+.Picture2 {
+  grid-area:Picture1;
+}
+
+.Decription2 {
+  grid-area:Description;
+}
+
+.h1 {
+  padding: 0;
+  margin: 0;
+
+}
+
+
+  @media screen and (max-width: 600) {
+    .myWork {
+      flex-direction: column;
+      width: 100%;
+      grid-template-columns: 1fr 1fr 1fr ;
+      grid-template-rows: 1fr 1fr 1fr ;
+      grid-template-areas:
+      "Picture1"
+      "Description"
+      "Picture1"
+      "Description2"
+      "Picture2"
+      "logo";
+    }
+}
+
