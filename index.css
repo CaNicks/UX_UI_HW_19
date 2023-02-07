@@ -41,17 +41,23 @@ body {
 .ul {
   display: inline-block;
   vertical-align: right;
-  padding: 25px;
+  padding:0px;
+  border: 0px;
   color: white;
+  list-style-type: none;
 }
 
 .p {
   color: white;
   text-align: center;
+  padding-top: 1px;
+  padding-bottom: 15px;
 }
 
 .a {
   color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .h4 {
@@ -61,14 +67,39 @@ body {
 }
 
 .button {
-  align-self: center;
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #000000;
+  color: white;
+  padding: 6px 14px 6px 6px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
 }
 
+.button:hover {
+  background-color: #ddd;
+  color: rgb(70, 70, 70);
+}
+
+
+
 .projectbutton {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #04AA6D;
+  color: white;
+  padding: 6px 14px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.projectbutton:hover {
+  background-color: #ddd;
+  color: black;
 }
 
 .myUXSkills {
@@ -101,7 +132,7 @@ body {
 .footer {
    background-color: #373738;
    width:100%; 
-   height:100px; 
+   height:200px; 
    display: grid;
    text-align: center;
    grid-template-rows: 1fr 1fr 1fr;
@@ -151,8 +182,7 @@ body {
 }
 
 .h1 {
-  margin: 0;
-  padding: 0;
+  padding: 3px 3px 3px 3px;
 }
 
 .item2 {
