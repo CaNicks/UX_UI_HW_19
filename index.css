@@ -47,6 +47,7 @@ body {
 
 .p {
   color: white;
+  text-align: center;
 }
 
 .a {
@@ -55,6 +56,12 @@ body {
 
 .h4 {
   color: white;
+  text-align: center;
+
+}
+
+.button {
+  align-self: center;
 }
 
 .projectbutton {
@@ -62,6 +69,10 @@ body {
     padding-bottom: 25px;
     padding-left: 25px;
     padding-right: 25px;
+}
+
+.myUXSkills {
+  align-self: center;
 }
 
 .flexContainer {
@@ -72,6 +83,8 @@ body {
     padding-bottom: 30px;
     padding-left: 30px;
     padding-right: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 #workLayout {
@@ -88,8 +101,9 @@ body {
 .footer {
    background-color: #373738;
    width:100%; 
-   height:200px; 
+   height:100px; 
    display: grid;
+   text-align: center;
    grid-template-rows: 1fr 1fr 1fr;
    grid-template-columns: 1fr 1fr 1fr;
    grid-template-areas:  
@@ -114,6 +128,9 @@ body {
 
 .Decription {
   grid-area:Description;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .workGrid2 {
@@ -134,9 +151,8 @@ body {
 }
 
 .h1 {
-  padding: 0;
   margin: 0;
-
+  padding: 0;
 }
 
 .item2 {

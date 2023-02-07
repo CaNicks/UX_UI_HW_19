@@ -8,6 +8,8 @@ $(".item2").ready(function(){
 
   $(".item3").ready(function(){
     $(".Picture4").click(function(){
-      $("#panel").show("slide", { direction: "right" }, 1000);
+      $("#item3").show("slide", { direction: "right" }, 1000);
     });
   });
+
+  console.log(".item2")
